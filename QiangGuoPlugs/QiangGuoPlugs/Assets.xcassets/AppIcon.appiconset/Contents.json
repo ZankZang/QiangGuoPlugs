@@ -1,0 +1,62 @@
+{
+  "images" : [
+    {
+      "filename" : "src=http---runyigroup.com.cn-uploads-allimg-190225-1-1Z2251530290-L.jpg&refer=http---runyigroup.com.cn&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=jpegiPhoneNotification_20pt@2x.png",
+      "idiom" : "iphone",
+      "scale" : "2x",
+      "size" : "20x20"
+    },
+    {
+      "filename" : "src=http---runyigroup.com.cn-uploads-allimg-190225-1-1Z2251530290-L.jpg&refer=http---runyigroup.com.cn&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=jpegiPhoneNotification_20pt@3x.png",
+      "idiom" : "iphone",
+      "scale" : "3x",
+      "size" : "20x20"
+    },
+    {
+      "filename" : "src=http---runyigroup.com.cn-uploads-allimg-190225-1-1Z2251530290-L.jpg&refer=http---runyigroup.com.cn&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=jpegiPhoneSpootlight5_29pt@2x.png",
+      "idiom" : "iphone",
+      "scale" : "2x",
+      "size" : "29x29"
+    },
+    {
+      "filename" : "src=http---runyigroup.com.cn-uploads-allimg-190225-1-1Z2251530290-L.jpg&refer=http---runyigroup.com.cn&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=jpegiPhoneSpootlight5_29pt@3x.png",
+      "idiom" : "iphone",
+      "scale" : "3x",
+      "size" : "29x29"
+    },
+    {
+      "filename" : "src=http---runyigroup.com.cn-uploads-allimg-190225-1-1Z2251530290-L.jpg&refer=http---runyigroup.com.cn&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=jpegiPhoneSpootlight7_40pt@2x.png",
+      "idiom" : "iphone",
+      "scale" : "2x",
+      "size" : "40x40"
+    },
+    {
+      "filename" : "src=http---runyigroup.com.cn-uploads-allimg-190225-1-1Z2251530290-L.jpg&refer=http---runyigroup.com.cn&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=jpegiPhoneSpootlight7_40pt@3x.png",
+      "idiom" : "iphone",
+      "scale" : "3x",
+      "size" : "40x40"
+    },
+    {
+      "filename" : "src=http---runyigroup.com.cn-uploads-allimg-190225-1-1Z2251530290-L.jpg&refer=http---runyigroup.com.cn&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=jpegiPhoneApp_60pt@2x.png",
+      "idiom" : "iphone",
+      "scale" : "2x",
+      "size" : "60x60"
+    },
+    {
+      "filename" : "src=http---runyigroup.com.cn-uploads-allimg-190225-1-1Z2251530290-L.jpg&refer=http---runyigroup.com.cn&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=jpegiPhoneApp_60pt@3x.png",
+      "idiom" : "iphone",
+      "scale" : "3x",
+      "size" : "60x60"
+    },
+    {
+      "filename" : "src=http---runyigroup.com.cn-uploads-allimg-190225-1-1Z2251530290-L.jpg&refer=http---runyigroup.com.cn&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=jpegstore_1024pt.png",
+      "idiom" : "ios-marketing",
+      "scale" : "1x",
+      "size" : "1024x1024"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

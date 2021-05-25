@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Image references" minToolsVersion="12.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ModelAddImgVC" customModule="QiangGuoPlugs" customModuleProvider="target">
+            <connections>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="MPM-Qv-jbz">
+                    <rect key="frame" x="0.0" y="390.33333333333331" width="428" height="155.66666666666669"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="添加当前手机尺寸学习强国试题完整手机截图" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KmN-bY-REz">
+                            <rect key="frame" x="50" y="0.0" width="328" height="71.666666666666671"/>
+                            <fontDescription key="fontDescription" type="boldSystem" pointSize="30"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SOJ-s8-Mzg">
+                            <rect key="frame" x="178.66666666666666" y="111.66666666666669" width="71" height="44"/>
+                            <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                            <inset key="contentEdgeInsets" minX="15" minY="10" maxX="15" maxY="10"/>
+                            <state key="normal" title="选择">
+                                <color key="titleColor" systemColor="systemTealColor"/>
+                            </state>
+                            <connections>
+                                <action selector="selectAct:" destination="-1" eventType="touchUpInside" id="uIc-bJ-zKV"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    <constraints>
+                        <constraint firstItem="SOJ-s8-Mzg" firstAttribute="top" secondItem="KmN-bY-REz" secondAttribute="bottom" constant="40" id="1gj-zp-m1C"/>
+                        <constraint firstAttribute="trailing" secondItem="KmN-bY-REz" secondAttribute="trailing" constant="50" id="JSt-ml-cYB"/>
+                        <constraint firstAttribute="bottom" secondItem="SOJ-s8-Mzg" secondAttribute="bottom" id="ShX-fq-V1I"/>
+                        <constraint firstItem="KmN-bY-REz" firstAttribute="top" secondItem="MPM-Qv-jbz" secondAttribute="top" id="dfA-de-N8A"/>
+                        <constraint firstItem="SOJ-s8-Mzg" firstAttribute="centerX" secondItem="MPM-Qv-jbz" secondAttribute="centerX" id="pVz-UX-q6Q"/>
+                        <constraint firstItem="KmN-bY-REz" firstAttribute="leading" secondItem="MPM-Qv-jbz" secondAttribute="leading" constant="50" id="qVB-Lm-TlT"/>
+                    </constraints>
+                </view>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mIO-rz-NRP">
+                    <rect key="frame" x="352" y="44" width="76" height="44"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="44" id="Iro-VI-OuK"/>
+                        <constraint firstAttribute="width" constant="76" id="Zds-eG-jQ5"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                    <color key="tintColor" systemColor="systemTealColor"/>
+                    <state key="normal">
+                        <imageReference key="image" image="multiply" catalog="system" symbolScale="large"/>
+                        <preferredSymbolConfiguration key="preferredSymbolConfiguration" configurationType="pointSize" pointSize="22" weight="bold"/>
+                    </state>
+                    <connections>
+                        <action selector="closeAct:" destination="-1" eventType="touchUpInside" id="ruA-j1-tid"/>
+                    </connections>
+                </button>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="MPM-Qv-jbz" firstAttribute="centerY" secondItem="fnl-2z-Ty3" secondAttribute="centerY" id="HQI-Rq-0a1"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="MPM-Qv-jbz" secondAttribute="trailing" id="rh9-V4-w8Y"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="mIO-rz-NRP" secondAttribute="trailing" id="xng-fA-zjF"/>
+                <constraint firstItem="MPM-Qv-jbz" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="zPI-eD-iKg"/>
+                <constraint firstItem="mIO-rz-NRP" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" id="zRj-gv-T2L"/>
+            </constraints>
+            <point key="canvasLocation" x="-146.37681159420291" y="82.33695652173914"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="multiply" catalog="system" width="128" height="111"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemTealColor">
+            <color red="0.35294117647058826" green="0.78431372549019607" blue="0.98039215686274506" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>

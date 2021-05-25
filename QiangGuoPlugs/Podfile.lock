@@ -1,0 +1,22 @@
+PODS:
+  - GRDB.swift (5.5.0):
+    - GRDB.swift/standard (= 5.5.0)
+  - GRDB.swift/standard (5.5.0)
+  - MJExtension (3.2.2)
+
+DEPENDENCIES:
+  - GRDB.swift
+  - MJExtension
+
+SPEC REPOS:
+  trunk:
+    - GRDB.swift
+    - MJExtension
+
+SPEC CHECKSUMS:
+  GRDB.swift: 10a3fda76720f3b5438e57d23455e2336226aa4d
+  MJExtension: d9b9c74cbdeb724c1e9ecbb157b318276e62e876
+
+PODFILE CHECKSUM: eec3e1d9dfe90c24b1947151cb8a1f9801c780a9
+
+COCOAPODS: 1.10.0.beta.1
